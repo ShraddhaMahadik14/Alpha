@@ -1,0 +1,22 @@
+#HeaderSection{
+    background-color: black;
+    color: red;
+
+}
+#HeaderSection div{
+    display: inline-block;
+}
+#HeaderSection div ul li{
+    display: inline-block;
+}
+#HeaderSection #left{
+    width: 80%;
+}
+#HeaderSection #right ul li span{
+    font-weight: 900;
+}
+body{
+    background-image: url(./Images/wp7730538.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

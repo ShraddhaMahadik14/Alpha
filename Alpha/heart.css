@@ -1,0 +1,22 @@
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 100px;
+    color: red;
+    animation: heart 1s infinite ease-in-out ;
+    /* name,duration,we use ease in out for smooth running */
+}
+@keyframes heart{
+    0%{
+        opacity: 100%;
+    }
+    50%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+

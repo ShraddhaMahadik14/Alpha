@@ -1,0 +1,359 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image: url(./Images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+#menu{
+    display: none;
+}
+#HeaderSection div{
+    display: inline-block;
+}
+#HeaderSection div ul li{
+    display: inline-block;
+}
+#HeaderSection #left{
+    width: 75%;
+}
+#HeaderSection #left h1{
+    font-size: 16px;
+}
+#HeaderSection div ul li button{
+    background-color: transparent;
+    width: 74px;
+    height: 33px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    color: white;
+
+}
+#HeaderSection div ul li{
+    padding-left: 24px;
+}
+#HeaderSection{
+    color: white;
+}
+#HeaderSection #left h1 span{
+    font-weight: 100;
+}
+#BodySection{
+    text-align: center;
+    color: #fbfbfb;
+margin-top: 95px;
+}
+#BodySection h1{
+    font-size: 55px;
+}
+#BodySection p{
+    font-size: 21px;
+}
+#BodySection button{
+    width: 192px;
+    height: 43px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #666666;
+    border: none;
+    margin-right: 10px;
+    margin-top: 20px;
+
+
+}
+#BodySection #learn{
+    background-color: transparent;
+    color: white;
+    border: 2px solid #9aa9ad;
+
+}
+#DiscriptiveSection{
+    text-align: center;
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    /* whenever we want to get contain in centre use margin auto after width */
+    border-radius: 5px;
+    padding-top: 20px;
+    margin-top: 163px;
+    color: #797979;
+}
+#DiscriptiveSection h1{
+    font-size: 30px;
+
+}
+#DiscriptiveSection p{
+    font-size: 20px;
+    border-top: 1px solid #e5e5e5;
+    width: 70%;
+    margin: auto;
+    padding-top: 40px;
+}
+#DiscriptiveSection img{
+    padding-top: 40px;
+    width: 100%;
+}
+@media (max-width:600px){
+    #HeaderSection{
+        display: none;
+    }
+    #menu{
+        display:inline;
+        color: white;
+        padding: 2px 10px;
+        background-color: rgb(255, 248, 248,0.704);
+        border-radius: 5px;
+
+    }
+    body{
+        background-size: 180%;
+        background-position-x: center;
+    }
+    #BodySection{
+    margin-top: 0px;
+}
+
+    #BodySection h1{
+        font-size: 30px;
+    }
+    #BodySection p{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    #BodySection button{
+        width: 300px;
+        height: 43px;
+        margin-top: 10px;
+    
+    
+    }
+    #DiscriptiveSection{
+        width: 100%;
+     padding-top: 5px;
+      margin-top: 80px;
+      border-radius: 0px;
+    }
+    #DiscriptiveSection h1{
+    font-size: 31px;}
+
+   
+    
+        #DiscriptiveSection p{
+            font-size: 21px;
+            width: 90%;
+            padding-top: 20px;
+        }
+        #IconSection{
+            width: 100%;
+        }
+}
+
+
+
+
+
+
+/* max width:600px is used for mobile(max size of mobile) */
+
+#IconSection{
+    width: 70%;
+    margin: auto;
+     background-color:  #ffffff;
+     border-radius: 5px;
+     margin-top: 35px;
+     color: #646464;
+    
+}
+body{
+    background-color: #f5f5f5 ;
+}
+#IconSection div{
+    display: inline-block;
+    text-align: center;
+    width: 47%;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding-top: 20px;
+    
+}
+/* h1 is inline block level element */ 
+/* Above we can use display flex also at that time we need to use width as 50% */
+/* to accessthe class use .  and if there is spacing use . between it*/
+/* below we can not use I tag as it will change the background color of all four symbols */
+.fa.fa-bolt{
+    font-size: 45px;
+    background-color: #e89980;
+    color: white;
+    border-radius: 100%;
+    padding: 25px 35px ;
+    /* 1st is for top and bottom and 2nd is for left and right */
+    
+}
+.fa.fa-area-chart{
+    font-size: 40px;
+    background-color: #7fcdb8;
+    color: white;
+    border-radius: 100%;
+    padding: 23px;
+}
+.fa.fa-cloud{
+    font-size: 40px;
+    background-color: #90b0ba;
+    color: white;
+    border-radius: 100%;
+    padding: 23px;
+    
+}
+.fa.fa-lock{
+    font-size: 40px;
+    background-color: #e5cb95;
+    color: white;
+    border-radius: 100%;
+    padding: 23px 30px;
+}
+/* to get the plus sign first give id to all four div  */
+#div1{
+    border-right: 0.5px solid #e5e5e5;
+    border-bottom: 0.5px solid #e5e5e5;
+    position: relative;
+    left: 14px;
+}
+/* if we give absolute instead of reltive it will start from top left so always give position as relative */
+#div4{
+    border-top: 0.5px solid #e5e5e5;
+    border-left: 0.5px solid #e5e5e5;
+    position: relative;
+    top: -21px;
+}
+#div3{
+    position: relative;
+    top: -27px;
+    left: 5px;
+}
+#ImageSection{
+    /* display: flex;
+    justify-content: center;
+    gap: 20px; */
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    color: #646464;
+    
+}
+#ImageSection div{
+    width: 48.5%;
+    display: inline-block;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 40px;
+    
+}
+#ImageSection div img{
+    width: 100%;
+}
+#ImageSection div h1{
+    font-size: 30px;
+}
+#ImageSection div button{
+   width: 115px;
+   height: 50px;
+   border-radius: 5px;
+   background-color: white;
+   color: #646464;
+   border: 2px  solid #e5e5e5;
+   /* margin-bottom: 30px; */
+   margin-top: 30px;
+}
+#ImageSection #div6{
+    margin-left: 25px;
+}
+#SignupSection{
+    background-color: #e89980 ;
+    text-align: center;
+    padding: 40px 40px;
+    
+}
+#SignupSection h1{
+    color: #f9e1c3;
+    font-size: 40px;
+}
+#SignupSection p{
+    color: #f9e1c3;
+}
+#SignupSection{
+color: 
+#f6d2a2;
+font-size: 20px;
+}
+::placeholder{
+    color: white;
+}
+#SignupSection input{
+background-color:  
+#eba893;
+width: 251px;
+height: 39px;
+border-radius: 5px;
+border: 0.5px solid #eba893;
+padding-left: 15px;
+margin-top: 30px;
+margin-bottom: 30px;
+
+}
+#SignupSection button{
+    background-color: white;
+    color: #e89b88;
+    width: 133px;
+    height: 42px;
+    border-radius: 5px;
+    text-align: center;
+    border: 0.5px solid white;
+   margin-left: 15px;
+}
+#FooterSection{
+    padding: 50px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+#Content1{
+    text-align: center;
+    font-size: 30px;
+    color: #c6c6c6;
+    letter-spacing: 10px;
+    
+}
+#Content2{
+    font-size: 15px;
+    padding: 30px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#Content2 #abc{
+    
+    border-right: 0.5px solid #c6c6c6 ;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+}
+#Content2 #xyz{
+    border-right: 0.5px solid #c6c6c6 ;
+    padding-left: 20px;  
+    padding-right: 20px;
+}
+#Content2 #def{
+
+    padding-left: 20px;  
+    padding-right: 20px;
+
+}
+
+
+@media (max-width=600px){
+    #IconSection{
+        width: 100%;
+    }
+}
